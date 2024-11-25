@@ -27,7 +27,7 @@ repositories {
 dependencies {
     implementation("org.jsoup:jsoup:1.17.2")
     implementation("junit:junit:4.13.2")
-    implementation("com.google.code.gson:gson:2.10.1")
+    implementation("com.google.code.gson:gson:2.11.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
     implementation("com.github.kittinunf.fuel:fuel:2.3.1")
@@ -36,7 +36,7 @@ dependencies {
     testImplementation("io.mockk:mockk:1.13.10")
     testImplementation("org.mockito:mockito-core:5.11.0")
     testImplementation("org.mockito.kotlin:mockito-kotlin:5.2.1")
-    testImplementation("com.google.code.gson:gson:2.10.1")
+    testImplementation("com.google.code.gson:gson:2.11.0")
     implementation(kotlin("stdlib-jdk8"))
     testImplementation("junit:junit:4.13.2")
 }
